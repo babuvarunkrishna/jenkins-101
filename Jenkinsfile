@@ -1,7 +1,8 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-python'
+           / label 'docker-agent-python'
+            label 'AWS_node'
             }
       }
     triggers {
